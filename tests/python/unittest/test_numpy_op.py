@@ -2698,7 +2698,7 @@ def test_np_insert():
     config.append(tuple([H, 0, 1, 3]))
     config.append(tuple([H, [1], E, 2]))
     config.append(tuple([H, [1], 1, 2]))
-    idx = _np.random.randint(-1 * H[3], H[3] + 1, size = (3)).tolist()
+    idx = _np.random.randint(-1 * H[3], H[3] + 1, size = (5)).tolist()
     config.append(tuple([H, idx, E, 3]))
     config.append(tuple([H, idx, 1, 3]))
     # test slice
